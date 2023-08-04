@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
+//@CrossOrigin(origins = "http://web-camp-ediya.s3-website.ap-northeast-2.amazonaws.com/",  methods = RequestMethod.GET)
 @CrossOrigin
 public class MenuController {
     private final MenuService menuService;
